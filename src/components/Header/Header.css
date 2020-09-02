@@ -1,0 +1,47 @@
+.navbar-light .navbar-nav .nav-item .nav-link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    /* background-color: #ff2c57; */
+    transition: .5s;
+    transform: scaleX(0);
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #ff2c57;
+}
+.navbar-light .navbar-nav {
+    background-color: #222b34!important;
+    color: wheat;
+}
+
+.header-sticky.is-sticky {
+    z-index: 999;
+    box-shadow: 0 2px 28px 0 rgba(0,0,0,.06);
+    -webkit-animation: fadeInDown .5s ease-in-out 0s 1 normal none running;
+    animation: fadeInDown .5s ease-in-out 0s 1 normal none running;
+    background: #fff!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    background: #fff;
+    box-shadow: 0 0 30px 0 rgba(67,67,67,.15);
+    padding: 42px 30px;
+    border-top: 3px solid #ff2c57;
+    border-bottom: 3px solid #ff2c57;
+
+    min-height: 540px;
+}
+.contact-form h3 {
+    color: #ff2c57;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-form .btn {
+    margin-top: 15px;
+}

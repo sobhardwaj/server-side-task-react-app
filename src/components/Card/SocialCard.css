@@ -1,0 +1,75 @@
+.social-card {
+    width: 550px;
+    border-bottom: 1px solid #e6ecf0;
+    border-top: 1px solid #e6ecf0;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-row {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-row > div {
+    width: 17%;
+}
+
+.avatar-img {
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 68px!important;
+}
+
+.avatar-img__img {
+    max-width: 48px;
+    border-radius: 100%;
+}
+
+.name {
+    padding-top: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.username, .timestamp {
+    padding-top: 7px;
+    font-size: 14px;
+    color: #657786;
+    font-size: 14px;
+}
+
+.username a {
+    text-decoration: none;
+    color: #657786;
+}
+
+.fa.fa-caret-down {
+    font-size: 18px;
+    transform: translate(150px, 17px);
+}
+
+.text-body {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 10% 0 10%;
+    width: 80%;
+}
+
+.social-icons {
+    width: 70%;
+    display: -ms-flexbox;
+    display: flex;
+    transform: translate(21%, 7px);
+}
+
+.social-icons__icon {
+    width: 25%;
+}
